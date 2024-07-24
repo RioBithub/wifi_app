@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Wi-Fi App by Deva',
+      title: 'Wi-Fi App by Syifa',
       home: WifiInfoScreen(),
     );
   }
@@ -28,7 +28,7 @@ class WifiInfoScreen extends StatelessWidget {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: Text('Wi-Fi Info (Deva)'),
+            title: Text('Wi-Fi Info (Syifa App)'),
             content: Text('SSID: $wifiName\n'
                 'IP Address: $wifiIP\n'
                 'BSSID: $wifiBSSID'),
