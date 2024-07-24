@@ -28,7 +28,7 @@ class WifiInfoScreen extends StatelessWidget {
         context: context,
         builder: (BuildContext context) {
           return AlertDialog(
-            title: Text('Wi-Fi Info (Syifa App)'),
+            title: Text('Wi-Fi Info ( By Deva)'),
             content: Text('SSID: $wifiName\n'
                 'IP Address: $wifiIP\n'
                 'BSSID: $wifiBSSID'),
